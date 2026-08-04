@@ -25,8 +25,32 @@ HeartSense is a **Streamlit-based web application** that predicts the likelihood
 - 💡 General heart health guidance and lifestyle recommendations.
 - 🎨 Clean and responsive UI.
 
+---
+
+## 📸 Application Preview
+
+### 🏠 Home Page
+
 <p align="center">
-  <img src="Images/prediction.jpg" alt="Prediction Page" width="75%">
+  <img src="Images/home.jpg" alt="Home Page" width="90%">
+</p>
+
+### ❤️ Prediction Page
+
+<p align="center">
+  <img src="Images/prediction.jpg" alt="Prediction Page" width="90%">
+</p>
+
+### 📊 Prediction Result
+
+<p align="center">
+  <img src="Images/result.jpg" alt="Prediction Result" width="90%">
+</p>
+
+### 💡 Guidance Page
+
+<p align="center">
+  <img src="Images/guidance.jpg" alt="Guidance Page" width="90%">
 </p>
 
 ---
