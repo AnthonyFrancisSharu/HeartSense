@@ -1,69 +1,109 @@
-# ❤️ HeartSense — Heart Disease Predictor
+# ❤️ HeartSense – Heart Disease Predictor
 
 <p align="center">
-  <img src="Images/Heart.jpg" alt="HeartSense banner" width="100%">
+  <img src="Images/Heart.jpg" alt="HeartSense Banner" width="100%">
 </p>
-
-HeartSense is a Streamlit web app that predicts the likelihood of heart disease from a patient's clinical
-data using a Random Forest classifier. Alongside the predictor, it includes a guidance page with general
-lifestyle and warning-sign information for heart patients.
-
-## Features
-
-- **Prediction** — Enter patient details (age, chest pain type, blood pressure, cholesterol, ECG results,
-  max heart rate, ST depression, etc.) and get an instant prediction with a confidence score.
-- **Guidance** — Educational content on diet, physical activity, medication adherence, lifestyle changes,
-  and emergency warning signs.
-- **Clean UI** — Custom-styled multi-page Streamlit interface with a themed sidebar and background imagery.
 
 <p align="center">
-  <img src="Images/prediction.jpg" alt="Prediction page preview" width="70%">
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-FF4B4B?logo=streamlit)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Random_Forest-F7931E?logo=scikitlearn)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 </p>
 
-## Tech Stack
+HeartSense is a **Streamlit-based web application** that predicts the likelihood of heart disease using a **Random Forest machine learning model**. The application allows users to enter patient clinical information and receive an instant prediction along with a confidence score. It also provides general health guidance and lifestyle recommendations related to heart disease.
+
+---
+
+## ✨ Features
+
+- ❤️ Predict heart disease using a trained **Random Forest** model.
+- 📊 Instant prediction with confidence score.
+- 📝 User-friendly Streamlit interface.
+- 💡 General heart health guidance and lifestyle recommendations.
+- 🎨 Clean and responsive UI.
+
+<p align="center">
+  <img src="Images/prediction.jpg" alt="Prediction Page" width="75%">
+</p>
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
-- [Streamlit](https://streamlit.io/) — web app framework
-- [scikit-learn](https://scikit-learn.org/) — Random Forest model
-- pandas, joblib
+- Streamlit
+- Scikit-learn
+- Pandas
+- Joblib
 
-## Project Structure
+---
 
+## 📁 Project Structure
+
+```text
+HeartSense/
+│
+├── app.py
+├── randomforest_model.pkl
+├── heart_disease_feature_columns.pkl
+├── randomforest.ipynb
+├── train.csv
+├── test.csv
+├── sample_submission.csv
+├── submission_Randomforest.csv
+├── Images/
+├── .streamlit/
+└── README.md
 ```
-app.py                              # Streamlit app (Home, Prediction, Guidance pages)
-randomforest_model.pkl              # Trained Random Forest model
-heart_disease_feature_columns.pkl   # Feature column order expected by the model
-randomforest.ipynb                  # Model training / exploration notebook
-train.csv / test.csv                # Training and test datasets
-sample_submission.csv               # Sample submission format
-submission_Randomforest.csv         # Model output submission
-Images/                             # App imagery (background, screenshots)
-.streamlit/config.toml              # Streamlit theme config
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AnthonyFrancisSharu/HeartSense.git
+cd HeartSense
 ```
 
-## Getting Started
+### 2. Install dependencies
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/AnthonyFrancisSharu/HeartSense.git
-   cd HeartSense
-   ```
-2. Install dependencies:
-   ```bash
-   pip install streamlit scikit-learn pandas joblib
-   ```
-3. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
+```bash
+pip install streamlit scikit-learn pandas joblib
+```
 
-## Model Input Features
+### 3. Run the application
 
-Age, Sex, Chest pain type, Resting BP, Cholesterol, Fasting blood sugar > 120 mg/dl, Resting EKG results,
-Max heart rate achieved, Exercise-induced angina, ST depression (old peak), Slope of peak exercise ST
-segment, Number of major vessels, Thallium stress test result.
+```bash
+streamlit run app.py
+```
 
-## Disclaimer
+---
 
-This app is for educational purposes only and does not constitute medical advice, diagnosis, or treatment.
-Always consult a qualified healthcare professional.
+## 📋 Model Input Features
+
+The prediction model uses the following patient information:
+
+- Age
+- Sex
+- Chest Pain Type
+- Resting Blood Pressure
+- Cholesterol
+- Fasting Blood Sugar
+- Resting ECG Results
+- Maximum Heart Rate Achieved
+- Exercise-Induced Angina
+- ST Depression (Oldpeak)
+- Slope of Peak Exercise ST Segment
+- Number of Major Vessels
+- Thallium Stress Test Result
+
+---
+
+## ⚠️ Disclaimer
+
+This application is developed for **educational purposes only**. The predictions generated by the model should **not** be considered medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for medical decisions.
