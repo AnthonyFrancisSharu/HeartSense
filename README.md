@@ -1,7 +1,7 @@
 # ❤️ HeartSense – Heart Disease Predictor
 
 <p align="center">
-  <img src="Images/Heart.jpg" alt="HeartSense Banner" width="100%">
+ <img width="1890" height="873" alt="image" src="https://github.com/user-attachments/assets/b5b4bc95-bca5-4aa8-8a80-c156f39a606f" />
 </p>
 
 <p align="center">
@@ -38,19 +38,22 @@ HeartSense is a **Streamlit-based web application** that predicts the likelihood
 ### ❤️ Prediction Page
 
 <p align="center">
-  <img src="Images/prediction.jpg" alt="Prediction Page" width="90%">
+ <img width="1869" height="859" alt="image" src="https://github.com/user-attachments/assets/b268c87f-b6b7-43b2-8918-bf179eb2f680" />
+
 </p>
 
 ### 📊 Prediction Result
 
 <p align="center">
-  <img src="Images/result.jpg" alt="Prediction Result" width="90%">
+<img width="1476" height="268" alt="image" src="https://github.com/user-attachments/assets/92620b43-2aa7-4d89-8e5e-e8394f708236" />
+
 </p>
 
 ### 💡 Guidance Page
 
 <p align="center">
-  <img src="Images/guidance.jpg" alt="Guidance Page" width="90%">
+ <img width="1847" height="837" alt="image" src="https://github.com/user-attachments/assets/3781aeb3-927f-453a-bb41-0055b5162c9f" />
+
 </p>
 
 ---
@@ -81,29 +84,6 @@ HeartSense/
 ├── Images/
 ├── .streamlit/
 └── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/AnthonyFrancisSharu/HeartSense.git
-cd HeartSense
-```
-
-### 2. Install dependencies
-
-```bash
-pip install streamlit scikit-learn pandas joblib
-```
-
-### 3. Run the application
-
-```bash
-streamlit run app.py
 ```
 
 ---
